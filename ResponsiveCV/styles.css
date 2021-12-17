@@ -18,9 +18,11 @@ body{
 }
 
 .resume_wrapper{
+	min-height: 1000px;
 	display: flex;
-	width: 800px;
-	margin: 50px auto;
+	width: 98%;
+	margin: 20px auto;
+	grid-template-columns: 300px 700px;
 	background: rgb(240, 228, 228);
 	padding: 10px;
 }
@@ -68,7 +70,9 @@ body{
 
 .resume_wrapper .resume_left .resume_namerole{
 	display: none;
+	width: 700px;
 }
+
 
 .resume_wrapper .resume_namerole .name{
 	font-size: 20px;
